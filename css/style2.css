@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#grid1 {
+    display: grid;
+    border: black solid 2px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 50% 50%;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+#encabezado {
+    height: 100px;
+    background-color: aqua;
+    grid-column-start:1;
+    grid-column-end: 4;
+    border: solid 1px red;
+}
+
+#barralateral {
+    height: 100px;
+    background-color: rgb(202, 64, 48);
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border: brown solid 4px;
+}
+
+#contenido {
+    background-color: purple;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

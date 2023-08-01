@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.barraNavega{
+    --bs-bg-opacity: 1;
+    background-color: rgb(128, 128, 128)
+}
+
+.bloque1{
+    width: 100vw;
+}
+.bloque11 {
+    width: 20%;
+    border: black solid 5px;
+}
+.bloque11 img {
+    width: 100px;
+    height: 100px;
+}
+.container-fluid {
+    justify-content: space-between;
+}
+.navbar-brand {
+    width: 40%;
+}
+#navbarSupportedContent {
+    width: 200px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#grid1 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 50% 50%;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+#encabezado {
+    height: 100px;
+    background-color: aqua;
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+
+#barralateral {
+    height: 100px;
+    background-color: rgb(202, 64, 48);
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#contenido {
+    background-color: purple;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
